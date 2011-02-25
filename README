@@ -1,0 +1,67 @@
+Go Fish - By DSI
+=================
+
+This game is based on the traditional card game of Go Fish.   You play against the computer.   
+
+To install:  
+- Unzip contents of zip file to \PSP\GAME or \PSP\GAME150, depending on your firmware configuration
+- Ensure the game is located at \PSP\GAME\GoFish
+
+Software bugs, Paypal donations, etc., go to dislam@rocketmail.com.  Thank you!
+
+
+
+Rules:
+------
+
+1) Both players (you and computer) start with 7 cards in a hand. 
+2) If a hand has any pairs, they are taken out and kept in the player's stash.
+3) Players take turns asking the other player if they have a particular card of the same value that they currently have in their own hand.
+ 
+  e.g. 
+  Player 1 asks: "Do you have a Jack?")
+  Player 2 will give that card to Player 1 if he has a Jack of any suit
+  Player 1 takes his new pair of Jacks and puts them into his stash.    
+  Player 1 goes again.
+
+  Player 1 asks: "Do you have a 2?"
+  Player 2 doesn't have a 2 in his hand, so he goes "Go Fish"
+  Player 1 takes one card from the deck (all cards in deck are face down)
+  Player 1 puts down any possible pairs resulting from this new card
+  Player 2 gets his turn now. And so on.
+
+  NOTE: The first turn in the game is randomly selected.
+
+4) The game ends when either a player finishes his hand or the deck runs out of cards.  The winner is the player with the most pairs.
+
+
+
+Controls:
+---------
+
+Instructions are provided in the game.
+
+In general,
+- Circle or Cross : Continue to the next move 
+- Direction Pad   : Move around to highlight a card
+- Triangle        : Plays the selected card
+- Select          : Makes a screenshot
+- Home            : Quit
+
+
+
+Release History:
+----------------
+
+
+v1.1 (2/13/2008) 
+  - Added high score file containing overall results
+  - Changed EBOOT icon (thanks to nicodemus82)
+  - Minor cosmetic changes
+  - Improved random number seed; cards were getting predictable
+  - works on PSP Slim now (thanks to homemister91's new LuaPlayer HM)
+
+v1.0 (9/5/2007) 
+  - Inception
+
+
